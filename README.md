@@ -24,12 +24,12 @@ Source Code File - Files containing sub modules.
 SCC.conf - SCC configuration file contains 
 
     Comment- Description of file.
-    -Version - version of module.
-    -SSC_ID - SSC Identifier.
-    -Database - (Object Containing database of provider, User, Password, HOST Protocol, HOST IP address, Database name)
-    -Local MQTT Broker - (Object Containing database of MQTT broker, Broker IP address, Username, Password, Port no. of the broker.
-    -Total yard.
-    -Total Section.
+    Version - version of module.
+    SSC_ID - SSC Identifier.
+    Database - (Object Containing database of provider, User, Password, HOST Protocol, HOST IP address, Database name)
+    Local MQTT Broker - (Object Containing database of MQTT broker, Broker IP address, Username, Password, Port no. of the broker.
+    Total yard.
+    Total Section.
 
 Section.conf - Section Configuration File.
 
