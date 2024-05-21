@@ -111,20 +111,3 @@ if __name__ == '__main__': #execute if code is being run directly by python inte
     section_conn_conf_data = section_conn_conf.read_cfg(
         '../config/section_connections.conf')
     section_conn_conf_data_len = len(section_conn_conf_data["SECTIONS"])
-
-    for data_idx in range(section_conn_conf_data_len):
-        section_id = section_conn_conf_data["SECTIONS"][data_idx]["SECTION_ID"]
-        left_normal = section_conn_conf_data["SECTIONS"][data_idx]["LEFT_NORMAL"]
-        right_normal = section_conn_conf_data["SECTIONS"][data_idx]["RIGHT_NORMAL"]
-        left_reverse = section_conn_conf_data["SECTIONS"][data_idx]["LEFT_REVERSE"]
-        right_reverse = section_conn_conf_data["SECTIONS"][data_idx]["RIGHT_REVERSE"]
-
-        section_conn_table = LayoutSectionConnectionsInfo()
-        section_conn_table.section_id = section_id
-        section_conn_table.left_normal = left_normal
-        section_conn_table.right_normal = right_normal
-        section_conn_table.left_reverse = left_reverse
-        section_conn_table.right_reverse = right_reverse
-
-        section_conn_table.save()
-    '''
