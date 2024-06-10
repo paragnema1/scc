@@ -19,6 +19,9 @@ SCC - Siding Control Centre Module.
 
 Configuration File - Files/settings which a program reads before startup.
 
+[embed][http://example.com/file.pdf](https://www.canva.com/design/DAGGt4JvI90/gcCERpC3UUoGjLj3AsR2Vw/edit?utm_content=DAGGt4JvI90&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)[/embed]
+
+
 Source Code File - Files containing sub modules.
 
 SCC.conf - SCC configuration file contains 
